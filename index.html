@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>SPA Shoes List</title>
+	<meta name="description" content="SPA Shoes List">
+
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="icon" href="img/favicon.png">
+	<meta property="og:image" content="img/shoes.png">
+
+	<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+
+	<header>
+		<div class="container">
+			<div class="c-row">
+
+				<div class="title">
+					<h1 class="h1">
+						Product List
+					</h1>
+				</div>
+
+			</div>
+		</div>
+	</header>
+	<!-- Custom HTML / Remove before use -->
+	<main>
+		<section>
+			<div class="container">
+				<div class="c-row">
+					<div class="product-list">
+
+						<div id="add" class="product-list-wrap">
+							<p class="notice">Add new product, please!</p>
+							<a href="#" class="product-list__add">+</a>
+						</div>
+
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+	</main>
+
+
+
+
+	<div class="product-list__form">
+
+		<form>
+
+			<div class="title">Add Product</div>
+			<div class="input-wrap">
+				<label for="PN"> Product Name </label> <br>
+				<input type="text" name="PN" id="PN" placeholder="Name" required><br>
+				<label for="PC">Product Category</label><br>
+				<input type="text" name="PC" id="PC" placeholder="Category" required><br>
+				<label for="PP">Product Price</label><br>
+				<input type="text" name="PP" id="PP" placeholder="Price" required><br>
+				<label for="URL">Product Image URL:</label><br>
+				<input type="url" name="URL" id="URL" placeholder="URL" required><br>
+				<div class="btn-wrap">
+					<input type="submit" class="btn" id="ok" value="OK">
+					<input type="submit" class="btn gray" id="cancel" value="Cancel">
+				</div>
+			</div>
+
+
+		</form>
+	</div>
+
+
+
+
+	<script src="js/scripts.js"></script>
+
+</body>
+
+</html>
